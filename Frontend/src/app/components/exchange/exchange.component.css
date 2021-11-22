@@ -1,0 +1,21 @@
+.box-wrap{
+  padding-top: 1%;
+  padding-left: 4%;
+
+}
+
+.add-btn{
+  margin-top: 3%;
+}
+
+.cont{
+  background-color: rgb(216, 207, 207);
+  font-weight : bold; 
+  height: 1000px;
+}
+
+h1{
+  padding-left: 4%;
+  padding-top: 4%; 
+  font-weight : bold; 
+}

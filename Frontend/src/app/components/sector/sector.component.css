@@ -1,0 +1,41 @@
+.btn-div{
+  padding: 0;
+}
+
+.cont{
+  background-color: rgb(216, 207, 207);
+  height : 1000px;
+}
+
+h1{
+  padding-top: 3%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container{
+  margin-top: 5%;
+  /* padding-left: 7%; */
+}
+
+.dropdown{
+  margin-right: 3%;
+}
+
+button{
+  width: 100%;
+}
+
+img{
+  width: 30%;
+}
+
+.noshow{
+  margin-top: 10%;
+}
+
+@media screen and (max-width:575px){
+  button{
+    margin-top: 5%;
+  }
+}

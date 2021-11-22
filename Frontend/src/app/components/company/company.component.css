@@ -1,0 +1,20 @@
+/* .box-wrap{
+  padding-top: 1%;
+} */
+
+/* .add-btn{
+  padding-top:1%;
+} */
+
+.container{
+  background-color: rgb(216, 207, 207);
+  font-weight : bold;
+  padding-top: 4%; 
+  padding-left: 4%; 
+  /* height: 500px; */
+}
+
+h1{
+  padding-left: 4%; 
+  font-weight : bold; 
+}

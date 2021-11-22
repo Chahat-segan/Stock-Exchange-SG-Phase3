@@ -1,0 +1,33 @@
+.container{
+  margin-top: 5%;
+}
+
+.cont{
+  padding-top: 5%;
+  background-color: rgb(216, 207, 207);
+  height: 1000px;
+}
+h1{
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+.form-div{
+  margin-top: 5%;
+}
+
+label{
+  margin-bottom: 2%;
+}
+
+.btn-group{
+  margin-top: 5%;
+}
+
+#reset{
+  margin-left: 5%;
+}
+
+.box-wrap{
+  margin-top: 10%;
+}

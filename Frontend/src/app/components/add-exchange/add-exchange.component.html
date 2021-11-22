@@ -1,0 +1,49 @@
+<app-navbar [state]="state"></app-navbar>
+<div class="cont">
+  <h1>New Stock Exchange</h1>
+<div class="container">
+  
+    <form>
+      <div class="user-form row">
+        <div class="col-lg-8 col-xs-12">
+          <h4>General Details</h4>
+          <div class="form-group">
+            <label>Exchange Name</label>
+            <input type="text" name="name" class="form-control" placeholder="Enter Name" required [(ngModel)]="exchange.name">
+          </div>
+          <div class="form-group">
+            <label>About the Exchange</label>
+            <input type="text" name="brief" class="form-control" placeholder="Enter Brief" required [(ngModel)]="exchange.brief">
+          </div>
+          <div class="form-group">
+            <label>Remarks</label>
+            <input type="text" name="remarks" class="form-control" placeholder="Enter Remarks (if any)" required [(ngModel)]="exchange.remarks">
+          </div>
+          <h4>Address</h4>
+          <div class="form-group">
+            <label>Street</label>
+            <input type="text" name="street" class="form-control" placeholder="Enter Street" required [(ngModel)]="exchange.address.street">
+          </div>
+          <div class="form-group">
+            <label>City</label>
+            <input type="text" name="city" class="form-control" placeholder="Enter city" required [(ngModel)]="exchange.address.city">
+          </div>
+          <div class="form-group row">
+            <div class="col-6">
+              <label>Country</label>
+              <input type="text" name="country" class="form-control" placeholder="Enter Country" required [(ngModel)]="exchange.address.country">
+            </div>
+            <div class="col-6">
+              <label>Zip Code</label>
+            <input type="number" name="zipCode" class="form-control" placeholder="Enter Zip Code" required [(ngModel)]="exchange.address.zipCode">
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="btn-grp row">
+      <button type="submit" class="btn btn-danger col-lg-3 col-md-3 col-sm-5 col-xs-5" (click)="addExchange()">Submit</button>
+      <button type="reset" class="btn btn-outline-secondary col-lg-3 col-md-3 col-sm-5 col-xs-5" id="reset-btn">Reset</button>
+    </div>
+  </form>
+</div>
+</div>
